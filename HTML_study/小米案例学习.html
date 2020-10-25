@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米</title>
+    <style>
+        /* 清除元素默认样式 */
+        * {
+            margin :0;
+            padding: 0;
+        }
+        /* 清除默认样式 */
+        li {
+            list-style: none;
+        }
+        .box {
+            width: 1226px;
+            height: 615px;
+            background-color: pink;
+            margin: auto;
+        }
+        /* 计算大小必须精确否则盒子会放不下 */
+
+        .left {
+            float: left;
+            width: 234px;
+            height: 615px;
+            background-color: purple;
+        }
+        .right {
+            float: right;
+            width: 992px;
+            height: 615px;
+            background-color: skyblue;
+        }
+        .right li {
+            float: left;
+            width: 234px;
+            height: 300px;
+            background-color: pink;
+            margin-left: 14px;
+            margin-bottom: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left"></div>
+        <ul class="right">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+        </ul>
+
+    </div>
+    
+</body>
+</html>
